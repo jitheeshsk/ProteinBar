@@ -1,4 +1,4 @@
-package us.egek.proteinbar
+package us.egek.proteinbar.sample
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

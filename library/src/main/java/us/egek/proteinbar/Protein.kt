@@ -128,7 +128,7 @@ class Protein constructor(private val builder: Builder) {
   }
 
   @RestrictTo(LIBRARY_GROUP)
-  @IntDef(LENGTH_INDEFINITE.toLong(), LENGTH_SHORT.toLong(), LENGTH_LONG.toLong())
+  @IntDef(LENGTH_INDEFINITE, LENGTH_SHORT, LENGTH_LONG)
   @IntRange(from = 1)
   @kotlin.annotation.Retention(AnnotationRetention.SOURCE)
   internal annotation class Duration

@@ -1,4 +1,4 @@
-package us.egek.proteinbar
+package us.egek.proteinbar.sample
 
 import org.junit.Test
 
